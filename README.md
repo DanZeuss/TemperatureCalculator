@@ -1,0 +1,1 @@
+This is a simple example about how to lift state up to ancestors using React.js
