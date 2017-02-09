@@ -14,7 +14,7 @@ class TemperatureInput  extends Component {
 
     handleChange(e)
     {
-        this.props.onChange(e.target.value);
+        this.props.whenChange(e.target.value);
     }
 
     render() {

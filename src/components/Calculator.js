@@ -29,8 +29,8 @@ class Calculator extends Component {
 
         return (
             <div>
-                <TemperatureInput scale="c" value={celsius} onChange={this.handleCelsiusChange}/>
-                <TemperatureInput scale="f" value={fahrenheit} onChange={this.handleFahreinheitChange}/>
+                <TemperatureInput scale="c" value={celsius} whenChange={this.handleCelsiusChange}/>
+                <TemperatureInput scale="f" value={fahrenheit} whenChange={this.handleFahreinheitChange}/>
                 <BoilingVeridict celsius={parseFloat(value)}/>
             </div>
         );
